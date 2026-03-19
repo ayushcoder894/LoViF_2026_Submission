@@ -17,12 +17,13 @@ pip install torch torchvision pyiqa open_clip_torch scikit-learn catboost xgboos
 ```
 
 ## Directory Structure Preparation
-Place the official challenge data directories (`Train` and `Val`, containing the reference and distorted images/videos) in the root directory alongside the python script:
+Place the official challenge data directories (`Train`, `Val`, and `Test`) in the root directory alongside the python script.
 
 ```text
 .
 ├── Train/               
 ├── Val/                 
+├── Test/
 ├── final_code_8711.py
 └── README.md
 ```
